@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px #00ffc8;
+      width: 350px;
+    }
+
+    .container h2 {
+      text-align: center;
+      color: #00ffc8;
+      margin-bottom: 25px;
+    }
+
+    .container input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 8px;
+      background: #222;
+      color: #fff;
+      font-size: 15px;
+    }
+
+    .container input:focus {
+      outline: none;
+      box-shadow: 0 0 10px #00ffc8;
+    }
+
+    .container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00ffc8;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .container button:hover {
+      background-color: #00cc99;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Create Account</h2>
+    <form action="welcome.html" method="POST">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button><a href="welcome.html" class="btn">Sign Up</a></button>
+
+    </form>
+  </div>
+</body>
+</html>
