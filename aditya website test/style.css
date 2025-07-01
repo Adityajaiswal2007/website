@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('back.jpg'); /* Background img */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 450px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  input[type="text"]:hover,
+  input[type="password"]:hover {
+  transform: scale(1.03);
+  transition: 0.2s ease;
+  box-shadow: 0 0 8px #00ffc3;
+}
+
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 27px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0 0 5px #00ffc3;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #00ff94;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 15px #00ff94;
+  transition: all 0.3s ease;
+}
+
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #00ffc3;
+  color: black;
+  transition: 0.5s ease;
+}
+
+
+.forgot {
+  text-align: right;
+  margin-top: 12px;
+}
+
+.forgot a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot a:hover {
+  transform: scale(1);
+
+  color: black;
+  transition: 0.5s ease;
+}
